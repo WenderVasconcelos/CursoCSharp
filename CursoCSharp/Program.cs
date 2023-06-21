@@ -73,7 +73,10 @@ namespace CursoCSharp {
                 {"HERANÇA - Orientação a Objetos", Heranca.Executar },
                 {"CONSTRUTOR THIS - Orientação a Objetos", ConstrutorThis.Executar },
                 {"ENCAPSULAMENTO - Orientação a Objetos", OO.Encapsulamento.Executar },
-
+                {"POLIMORFISMO - Orientação a Objetos", Polimorfismo.Executar },
+                {"ABSTRACT - Orientação a Objetos", Abstract.Executar },
+                {"INTERFACE - Orientação a Objetos", Interface.Executar },
+                {"SEALED - Orientação a Objetos", Sealed.Executar },
 
             });
 
