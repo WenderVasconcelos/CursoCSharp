@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.API;
 
 namespace CursoCSharp {
     class Program {
@@ -78,6 +80,20 @@ namespace CursoCSharp {
                 {"INTERFACE - Orientação a Objetos", Interface.Executar },
                 {"SEALED - Orientação a Objetos", Sealed.Executar },
 
+                //METODOS E FUNÇÕES
+                {"LABDA - Métodos e Funções", ExemploLambda.Executar },
+                {"LABDA DELEGATE - Métodos e Funções", LambdaDelegate.Executar },
+                {"USANDO DELEGATE - Métodos e Funções", UsandoDelegates.Executar },
+                {"DELEGATE COM FUNÇÕES ANONIMAS - Métodos e Funções", DelegateFunAnonima.Executar },
+                {"DELEGATE COMO PARAMETROS - Métodos e Funções", DelegatesComoParametros.Executar },
+                {"METODOS DE EXTENSÃO - Métodos e Funções", MetodosDeExtensao.Executar },
+
+                //EXCEÇÕES
+                {"PRIMEIRA EXCEÇÃO - Exceções", PrimeiraExcecao.Executar },
+                {"EXCEÇÕES PERSONALIZADAS - Exceções", ExcecoesPersonalizadas.Executar },
+
+                //API
+                {"PRIMEIRO ARQUIVO USANDO API - API", PrimeiroArquivo.Executar },
             });
 
             central.SelecionarEExecutar();
